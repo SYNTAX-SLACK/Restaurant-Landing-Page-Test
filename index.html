@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Test Document</title>
+</head>
+    <body class="bg-slightWhite">
+        <!--Navbar-->
+        <nav class="container relative flex py-[21px] px-[39px] h-[80px] md:px-[71px] space-x-[144px] md:space-x-[682px] bg-white justify-between md:overflow-x-hidden md:z-40 md:w-">
+            <!--Logo-->
+            <div class="items-center align-middle">
+                <img src="images/logorow.png" alt="" class="w-full">
+            </div>
+
+            <!--Nav Menu-->
+            <div class="mx-auto items-center align-middle justify-between space-x-4 hidden md:flex md:space-x-[64px]">
+                <a href="#" class="hover:text-darkGreen text-darkText text-xl font-bold text-left">About Us</a>
+                <a href="#" class="hover:text-darkGreen text-darkText text-xl font-bold text-left">Menu</a>
+                <a href="#" class="hover:text-darkGreen text-darkText text-xl font-bold text-left">Contact</a>
+            </div>
+
+            <!--Handburger-->
+            <div class="items-center w-max m-3 md:hidden">
+                <svg id="burger" class="w-10 h-10 flex justify-end cursor-pointer md:w-h-16 md:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </div>
+        </nav>
+        
+        <section class="hero1">
+            <!--Gradient-->
+            <div class="flex flex-row-reverse relative bg-background bg-gradient-to-br from-veryLightGreen to-slightWhite 
+                bg-opacity-5 pb-[10px] md:h-[720px] h-[869px] w-full bg-cover bg-center md:space-x-[70px] md:justify-between md:mx-auto"
+            >
+                <!--Hero Content-->
+                <div class="flex flex-row-reverse justify-center items-start md:items-start w-full md:w-[50%] h-[869px] md:h-[710px] bg-darkGreen rounded-bl-full md:rounded-b-full md:rounded-tl-full md:bottom[80px] md:z-10">
+                    <!--Image-->
+                    <img src="images/dish.png" class="relative max-w-max z-10 h-[484px] pl-[495px] [575px] md:mt-[41px] md:pl-0 md:w-[517px] md:h-[522px]" alt="Vegetable Salad">
+                    
+                    
+                    <!--Text-->
+                    <div class="flex flex-col space-y-10 absolute mt-[128px] z-20 md:hidden">
+                        <h1 class=" text-white text-5xl text-left font-bold">
+                            Healthy & Fresh <br> Food For You
+                        </h1>
+    
+                        <span class="text-2xl font-normal text-slightWhite z-20">Created for lovers of <br> healthy, delicious and <br>non-obvious food.</span>
+    
+                        <!--Button-->
+                        <button class="rounded-lg mt-[22px] w-[207px] h-[53px] bg-orange text-center align-middle font-semibold text-white">
+                            Check Menu
+                        </button>
+                    </div> 
+                </div>
+                <!--Heathy Fresh Food For You large screens-->
+                <div class="md:flex-col h-full space-y-10 hidden mt-[171px] justify-start md:justify-start md:flex">
+                    <h1 class="text-white text-4xl text-left font-bold md:text-darkText md:text-7xl">
+                        Healthy & Fresh <br> Food For You
+                    </h1>
+
+                    <span class="text-2xl font-normal text-darkText">Created for lovers of healthy, delicious and <br>non-obvious food.</span>
+
+                    <!--Button-->
+                    <button class="rounded-lg w-[207px] mb-[21px] h-[53px] bg-orange text-center align-middle font-semibold text-white">
+                        Check Menu
+                    </button>
+
+                    <!--Pepper-->
+                    <img src="images/pepper.png" alt=""
+                    class="relative hidden w-[70%] h-[20%] right-[0px] overflow-hidden md:mt-0 md:top-[12px] md:flex md:right-[150px]">
+                </div>
+            </div>
+
+            
+        </section>
+
+        <!-- Hero section 2 -->
+        <section">
+
+            <!-- flex container -->
+            <div class="flex flex-row-reverse pt-[96px] space-x-0 items-center md:justify-normal md:pt-0 md:space-x-36 md:flex-row md:mx-auto">
+                <!-- left item -->
+                <div class="relative z-30 md:right-[300px]">
+                    <div class=" hidden md:flex md:w-[580px] md:h-[630px] bg-lightGreen rounded-full">
+                        <img src="images/veg.png" alt="vgt"
+                            class="relative md:left[250px] md:top-[50px] h-[535px] w-[550px] ml-[300px]">
+                    </div>
+                    <div class="md:hidden align-bottom flex w-56 -mr-32">
+                        <img src="images/veg.png" alt="" class="w-full h-full">
+                    </div>
+                    
+                </div>
+        
+                <!-- right item -->
+                <div class="relative p-6 mx-0 pb-48 w-full align-top flex flex-col space-y-2 my-auto md:space-y-5">
+                    <!--About Us-->
+                    <h1 class="text-orange text-2xl font-bold text-left md:font-bold md:text-4xl">
+                        About Us
+                    </h1>
+                    <!--Content1-->
+                    <h4 class="break-normal text-darkText font-bold text-4xl text-left md:text-6xl">
+                        Few words about us
+                    </h4>
+                    <!--Paragraph-->
+                    <p class="text-darkText font-normal text-left text-lg md:text-2xl">
+                        We are not ordinary food truck. We create a place overflowing with positive energy that it expresses important tous values. Get to know them specifically.
+                    </p>
+                    <!-- button -->
+                    <button class="bg-lightGreen w-[120px] h-[41px] rounded-lg text-white text-center">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--Features 1-->
+        <section id="features">
+            <div class="flex flex-col relative space-y-[20px] mx-auto p-6 m-6 w-full">
+                <!--Text Container-->
+                <div class="flex flex-col items-center w-full justify-center">
+                    <!--Menu-->
+                    <h1 class="text-orange text-center text-xl font-semibold md:text-4xl">
+                        Menu
+                    </h1>
+                </div>
+
+                <!--Explore Our Best Food-->
+                <h4 class="text-darkText mt-4 text-center text-3xl font-bold md:text-7xl md:mt-8">
+                    Explore Our Best Food
+                </h4>
+
+                <!--See our best selling meals!-->
+                <h1 class="text-darkText text-center text-xl font-normal md:text-4xl"> 
+                    See our best selling meals!
+                </h1>
+            </div>
+
+            <!--Menu gallery-->
+            <div class="flex flex-col relative container mx-auto w-full m-8 md:mx-[71px] md:m-[71px] md:flex-row md:space-x-[24px]">
+                <!--Mighty Burger-->
+                <div class="flex flex-col items-stretch shadow-xl bg-white m-8">
+                    <!--Image-->
+                    <img src="images/burger.png" alt="Mighty Burger" class="w-full h-full">
+
+                    <!--Name and Price-->
+                    <div class="flex mt-[24px] mx-[24px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            Mighty burger
+                        </h4>
+
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            8$
+                        </h4>
+                    </div>
+
+                    <!--Serving-->
+                    <h1 class="text-darkText text-xl font-normal mt-[12px] mb-[24px] mx-[24px] text-left">
+                        Served with fries and drink
+                    </h1>
+                </div>
+
+                <!--Chickpae’s salad-->
+                <div class="flex flex-col shadow-xl bg-white m-8">
+                    <!--Image-->
+                    <img src="images/burger.png" alt="Mighty Burger" class="w-full h-full">
+
+                    <!--Name and Price-->
+                    <div class="flex mt-[24px] mx-[24px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            Chickpae’s salad
+                        </h4>
+
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            4$
+                        </h4>
+                    </div>
+
+                    <!--Serving-->
+                    <h1 class="text-darkText text-xl font-normal mt-[12px] mb-[24px] mx-[24px] text-left">
+                        Served with fries and drink
+                    </h1>
+                </div>
+
+                <!--Chickpae’s wrap-->
+                <div class="flex flex-col shadow-xl bg-white m-8">
+                    <!--Image-->
+                    <img src="images/burger.png" alt="Mighty Burger" class="w-full h-full">
+
+                    <!--Name and Price-->
+                    <div class="flex mt-[24px] mx-[24px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            Chickpae’s wrap
+                        </h4>
+
+                        <h4 class="text-darkText text-2xl font-bold text-left">
+                            3$
+                        </h4>
+                    </div>
+
+                    <!--Serving-->
+                    <h1 class="text-darkText text-xl font-normal mt-[12px] mb-[24px] mx-[24px] text-left">
+                        Served with fries and drink
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Features 2-->
+        <section class="mb-[88px] md:mb-[114px]">
+            <!--Good food = happy clients-->
+            <h4 class="text-darkText font-bold text-3xl text-center mt-[33px] mb-[20px] md:text-6xl md:mt-[80px] md:mb-[33px]">
+                Good food = happy clients
+            </h4>
+            <!--Testimonial gallery-->
+            <div class="grid grid-cols-3 grid-rows-2 relative mx-auto m-0 space-x-0 gap-0 md:items-stretch md:mx-[71px] md:space-y-[24px] md:space-x-[24px]">
+                <img src="images/g1.png" class="md:ml-6 md:mt-6" alt="Gallery Photo 1">
+                <img src="images/g2.png" alt="Gallery Photo 2">
+                <img src="images/g3.png" alt="Gallery Photo 3">
+                <img src="images/g4.png" alt="Gallery Photo 4">
+                <img src="images/g5.png" alt="Gallery Photo 5">
+                <img src="images/g6.png" alt="Gallery Photo 6">
+            </div>
+        </section>
+
+        <!--Contact-->
+        <Section class="mb-[200px] md:mb-[150px]">
+            <div class="flex flex-col relative items-center m-8 mx-auto space-x-0 md:flex-row md:items-stretch md:mx-[71px] md:space-x-[94px]">
+                <!--Opening hours-->
+                <div class="flex flex-col items-center shadow-xl bg-white w-[347px] p-8 h-full rounded-full md:ml-6 md:mt-6">
+                    <!--Image-->
+                    <img src="images/time.png" alt="clock" class="w-[30px] h-[30px]">
+
+                    <!--Tag-->
+                    <div class="flex mt-[16px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-xl font-bold text-left">
+                            Today 12 pm - 9 pm
+                        </h4>
+                    </div>
+
+                    <!--Activity-->
+                    <h1 class="text-darkText text-lg font-normal mt-[12px] mb-[16px] mx-[24px] text-left">
+                        Working Hours
+                    </h1>
+                </div>
+
+                <!--Location-->
+                <div class="flex flex-col items-center shadow-xl bg-white w-[347px] mt-[24px] p-8 h-full rounded-full md:mt-o">
+                    <!--Image-->
+                    <img src="images/location.png" alt="Location logo" class="w-[24px] h-[30px]">
+
+                    <!--Tag-->
+                    <div class="flex mt-[16px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-xl font-bold text-left">
+                            Piastowska 4, Cracow
+                        </h4>
+                    </div>
+
+                    <!--Activity-->
+                    <h1 class="text-darkText text-lg font-normal mt-[12px] mb-[16px] mx-[24px] text-left">
+                        Find Us
+                    </h1>
+                </div>
+
+                <!--Phone-->
+                <div class="flex flex-col items-center shadow-xl bg-white w-[347px] mt-[24px] p-8 h-full rounded-full md:mt-o">
+                    <!--Image-->
+                    <img src="images/call.png" alt="Location logo" class="w-[24px] h-[30px]">
+
+                    <!--Tag-->
+                    <div class="flex mt-[16px] justify-between space-x-[84px]">
+                        <h4 class="text-darkText text-xl font-bold text-left">
+                            503 204 176
+                        </h4>
+                    </div>
+
+                    <!--Activity-->
+                    <h1 class="text-darkText text-lg font-normal mt-[12px] mb-[16px] mx-[24px] text-left">
+                        Call to Us
+                    </h1>
+                </div>
+            </div>
+        </Section>
+
+        <!--Footer-->
+        <footer>
+            <div class="relative w-[160px] z-20 left-[156px] md:left-[556px] top-[70px] bg-slightWhite rounded-full items-center p-8 md:p-14 md:w-[472px] md:top-56">
+                <img src="images/logocol.png" alt="Our Logo" class="w-full h-full">
+            </div>
+            <div class="relative flex flex-col bg-darkGreen rounded-t-full justify-between w-full space-y-10 items-center z-10">
+                <!--Links-->
+                <div class="z-30 relative flex w-full mt-0 pt-24 space-x-6 justify-center text-white text-center font-semibold md:text-6xl md:space-x-20 md:pt-96">
+                    <a href="#">About Us</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <!-- Social Media -->
+                <span class="relative flex justify-center space-x-20 md:space-x-56 py-8 md:py-12">
+                    <!-- Link 1 -->
+                    <a href="#"><img src="images/fb.png" alt="Facebook" class="w-full h-full"></a>
+                    <!-- Link 2 -->
+                    <a href="#"><img src="images/twitter.png" alt="twitter" class="h-8"></a>
+                    <!-- Link 3 -->
+                    <a href="#"><img src="images/insta.png" alt="instagram" class="h-8"></a>
+                </span>
+            </div>
+        </footer>
+    </body>
+</html
